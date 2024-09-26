@@ -4,7 +4,7 @@ from bs4 import BeautifulSoup # 解析工具
 import time # 用來暫停程式
  
 # 要爬的股票
-stock = ["1101","2330"]
+stock = ["1101","2330","1101"]
 	for i in range(len(stock)): # 迴圈依序爬股價
 
 	    # 現在處理的股票
@@ -34,11 +34,11 @@ stock = ["1101","2330"]
 
 	    # bot token
 
-	    token = "輸入你的 bot token"
+	    token = "7778996399:AAHyrWIAWsBpqp-_-uiC-3H7UbXAsfi_uc8"
 
 	    # 使用者 id
 
-	    chat_id="輸入你的 telegram id"
+	    chat_id="7986119738"
 
 	    # bot 送訊息
 
